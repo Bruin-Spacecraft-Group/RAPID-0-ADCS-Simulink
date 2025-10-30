@@ -10,6 +10,8 @@ clear;
 %      0, 0, 0;
 %      0, 0, 0];
 
+mass = 1086.50
+
 disp("Initialization complete.");
 
 % Orbital Mechanics Variables
