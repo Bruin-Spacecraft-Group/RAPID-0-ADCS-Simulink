@@ -1,4 +1,4 @@
-% Initialize variables for Simulink model
+%% Initialize variables for Simulink model
 
 % Clear Command Window and Workspace
 clc;
@@ -11,3 +11,5 @@ clear;
 %      0, 0, 0];
 
 disp("Initialization complete.");
+
+% Orbital Mechanics Variables
