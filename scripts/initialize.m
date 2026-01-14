@@ -32,6 +32,13 @@ I = [Lxx, Lxy, Lxz; Lyz, Lyy, Lyz; Lzx, Lzy, Lzz] % measured in g*mm^2
 Kp = 1 % proportional gain
 Kd = 1 % deriviitve gain 
 
+% Define transfer function variables
+K = 0.373 % back-EMF constant [mV/min-1]
+J = 0.69 % rotor moment of inertia [g*cm^2]
+b = 1 % TBD
+L = 570 % inductance [uH] 
+R = 22 % armature resistance [ohm]
+
 disp("Initialization complete.");
 
 % Orbital Mechanics Variables
