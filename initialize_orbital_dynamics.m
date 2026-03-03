@@ -18,3 +18,5 @@ v0_mag = sqrt(mu / r0_mag);   % m/s
 
 %% Initial velocity vector (perpendicular to r0)
 v0 = [0; v0_mag; 0];    % m/s
+
+%% Mass of earth
